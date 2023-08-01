@@ -1,0 +1,39 @@
+.btn {
+    background-color: #B68C5A;
+    color: white;
+    padding: 15px;
+}
+
+h1,
+h5 {
+    font-family: 'EB Garamond';
+}
+
+
+@media only screen and (max-width:600px) {
+    .src-btn {
+        display: block;
+    }
+
+    .description {
+        width: 95% !important;
+    }
+
+    .input-area {
+        width: 95% !important;
+    }
+
+    .input-area input {
+        padding: 16px;
+        margin-bottom: 9px !important;
+    }
+
+    .input-area button {
+        margin: 0 auto !important;
+    }
+
+    .bg-img {
+        background-repeat: no-repeat !important;
+        background-size: cover;
+    }
+}
